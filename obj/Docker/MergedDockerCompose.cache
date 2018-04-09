@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  ncfonnetauth:
+    build:
+      context: C:\Users\rcoplin\Projects\NCFOnNetAuth
+      dockerfile: NCFOnNetAuth\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ncfonnetauth
+    ports:
+    - 80/tcp
+version: '3.0'

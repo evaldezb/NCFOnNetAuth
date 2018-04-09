@@ -1,0 +1,11 @@
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\bin\Debug\netcoreapp2.0\NCFOnNetAuth.deps.json
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\bin\Debug\netcoreapp2.0\NCFOnNetAuth.runtimeconfig.json
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\bin\Debug\netcoreapp2.0\NCFOnNetAuth.runtimeconfig.dev.json
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\bin\Debug\netcoreapp2.0\NCFOnNetAuth.dll
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\bin\Debug\netcoreapp2.0\NCFOnNetAuth.pdb
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\obj\Debug\netcoreapp2.0\NCFOnNetAuth.csprojResolveAssemblyReference.cache
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\obj\Debug\netcoreapp2.0\NCFOnNetAuth.csproj.CoreCompileInputs.cache
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\obj\Debug\netcoreapp2.0\NCFOnNetAuth.AssemblyInfoInputs.cache
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\obj\Debug\netcoreapp2.0\NCFOnNetAuth.AssemblyInfo.cs
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\obj\Debug\netcoreapp2.0\NCFOnNetAuth.dll
+C:\Users\rcoplin\Projects\NCFOnNetAuth\NCFOnNetAuth\obj\Debug\netcoreapp2.0\NCFOnNetAuth.pdb

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ncfonnetauth:
+    image: ncfonnetauth
+    build:
+      context: .
+      dockerfile: NCFOnNetAuth\Dockerfile

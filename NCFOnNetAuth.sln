@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCFOnNetAuth", "NCFOnNetAuth\NCFOnNetAuth.csproj", "{2403766B-64F4-4601-9ABF-EB817D6DCA3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2403766B-64F4-4601-9ABF-EB817D6DCA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2403766B-64F4-4601-9ABF-EB817D6DCA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2403766B-64F4-4601-9ABF-EB817D6DCA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2403766B-64F4-4601-9ABF-EB817D6DCA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08CA1B76-30C9-44A3-AEE9-EFD56688F276}
+	EndGlobalSection
+EndGlobal
