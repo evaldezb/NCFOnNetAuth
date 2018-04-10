@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace NCFOnNetAuth.Controllers
 {
     [Route("api/home")]
-    [Authorize(Roles = "ROLE_ADMIN")]
+    [Authorize(Roles = "ROLE_ADMIN, ROLE_CC_SUPERVISOR")]
     public class HomeController : Controller
     {
 

@@ -1,16 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Security.Claims;
-using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
@@ -35,7 +31,7 @@ namespace NCFOnNetAuth
 
             var token = value.Split(' ')[1];
 
-            var claims = new Claim[] { };
+            var claims = new List<Claim>();
             var baseAddress = "http://localhost:8001/api/";
             HttpClient query2 = new HttpClient();
             query2.BaseAddress = new Uri(baseAddress);
@@ -51,11 +47,8 @@ namespace NCFOnNetAuth
                     var result2 = response.Content.ReadAsStringAsync().Result;
                     objectDeserialize = Newtonsoft.Json.JsonConvert.DeserializeObject<RootObject>(result2);
 
-                    claims = new[]
-                    {
-                        new Claim(ClaimTypes.Name, objectDeserialize.username),
-                        new Claim(ClaimTypes.Role, objectDeserialize.roles.First().name)
-                    };
+                    claims.Add(new Claim(ClaimTypes.Name, objectDeserialize.username));
+                    claims.AddRange(objectDeserialize.roles.Select(x => new Claim(ClaimTypes.Role, x.name)));
 
                 }
                 catch (Exception ex)
